@@ -379,7 +379,7 @@ namespace SQLQueryStress
                 {
                     var matches = FindReads.Split(err.Message);
 
-                    //we have a read
+                    //we have a read 
                     if (matches.Length > 1)
                     {
                         _outInfo.LogicalReads += Convert.ToInt32(matches[2]);
